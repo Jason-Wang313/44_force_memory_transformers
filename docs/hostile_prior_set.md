@@ -1,0 +1,102 @@
+# Hostile Prior Set
+
+- 19 | 2026 | TacForeSight: Force-Guided Tactile World Model for Contact-Rich Manipulation
+- 15 | 2026 | Multi-Resolution Tactile Imitation Learning for Contact-Rich Robotic Manipulation
+- 13 | 2026 | HiMem-WAM: Hierarchical Memory-Gated World Action Models for Robotic Manipulation
+- 13 | 2026 | Unifying Object-Centric World Models and Diffusion Policy: A Hierarchical Framework for Multi-Stage Robotic Tasks
+- 13 | 2026 | RoboTrustBench: Benchmarking the Trustworthiness of Video World Models for Robotic Manipulation
+- 13 | 2026 | $τ_0$-WM: A Unified Video-Action World Model for Robotic Manipulation
+- 13 | 2026 | World Models for Robotic Manipulation: A Survey
+- 13 | 2026 | GEM-4D: Geometry-Enhanced Video World Models for Robot Manipulation
+- 13 | 2026 | GaussianDream: A Feed-Forward 3D Gaussian World Model for Robotic Manipulation
+- 13 | 2026 | RoboFlow4D: A Lightweight Flow World Model Toward Real-Time Flow-Guided Robotic Manipulation
+- 12 | 2026 | TORL-VLA: Tactile Guided Online Reinforcement Learning for Contact-Rich Manipulation
+- 12 | 2026 | Dream-Tac: A Unified Tactile World Action Model for Contact-Rich Robot Manipulation
+- 12 | 2026 | HapTile: A Haptic-Informed Vision-Tactile-Language-Action Dataset for Contact-Rich Imitation Learning
+- 12 | 2026 | Spacetime Optimal-Transport Attention for Visuo-Haptic Imitation Learning of Contact-Rich Manipulation
+- 11 | 2026 | Shaft-integrated Force Sensing with Transformer-based Dynamics Compensation for Telesurgery
+- 10 | 2026 | PLUME: Probabilistic Latent Unified World Modeling and Parameter Estimation for Multi-Finger Manipulation
+- 10 | 2026 | iMaC: Translating Actions into Motion and Contact Images for Embodied World Models
+- 10 | 2026 | Targeting World Models to Compromise Robot Learning Pipelines
+- 10 | 2026 | Robots Need More than VLA and World Models
+- 10 | 2026 | PiL-World: A Chunk-Wise World Model for VLA Policy-in-the-Loop Evaluation
+- 10 | 2026 | OSCAR: Omni-Embodiment Action-Conditioned World Model for Robotics
+- 10 | 2026 | Worth Remembering: Surprise-Gated Robot Episodic Memory
+- 10 | 2026 | AURA: Action-Gated Memory for Robot Policies at Constant VRAM
+- 10 | 2026 | RoboDream: Compositional World Models for Scalable Robot Data Synthesis
+- 10 | 2026 | Intercepting the Future: Latent-Space Predictive World Model for Dynamic VLA Manipulation
+- 10 | 2026 | Dynamic Resilient Spatio-Semantic Memory with Hybrid Localization for Mobile Manipulation
+- 10 | 2026 | StressDream: Steering Video World Models for Robust Policy Evaluation and Improvement
+- 10 | 2026 | AR Forcing: Towards Long-Horizon Robot Navigation World Model
+- 10 | 2026 | MiraBench: Evaluating Action-Conditioned Reliability in Robotic World Models
+- 10 | 2026 | When Search Becomes Memory: Turning Robot Design Trials into Transferable Skills
+- 10 | 2026 | WorldCraft: From Camera Navigation to Object Manipulation in Interactive Video World Models
+- 10 | 2026 | Spatial Memory for Out-of-Vision Manipulation in Vision-Language-Action
+- 10 | 2026 | Feedback World Model Enables Precise Guidance of Diffusion Policy
+- 10 |  | QUERY_ERROR: all:world model AND robot
+- 09 | 2026 | FACTR 2: Learning External Force Sensing for Commodity Robot Arms Improves Policy Learning
+- 09 | 2026 | Ambient Diffusion Policy: Imitation Learning from Suboptimal Data in Robotics
+- 09 | 2026 | IMPACT: Learning Internal-Model Predictive Control for Forceful Robotic Manipulation
+- 09 | 2026 | AetheRock: An Arm-Worn Robot Teaching System for Force-Guided Vision-Tactile Learning
+- 09 | 2026 | Latent Diffusion Policy: Shaping Latent Spaces for Diffusion-Based Robotic Manipulation
+- 09 | 2026 | FAWAM: Force-Aware World Action Models for Closed-Loop Contact-Rich Manipulation
+- 09 | 2026 | L-SDPPO: Policy Optimization of Spiking Diffusion Policy for Intra-vehicular Robotic Manipulation
+- 09 | 2026 | Visuotactile and Explicitly Force-Controlled Robotic Ultrasound for Abdominal Volumetric Reconstruction
+- 09 | 2026 | Preference-Calibrated Human-in-the-Loop Reinforcement Learning for Robotic Manipulation
+- 09 | 2026 | VE2VF: Vision-Enabled to Vision-Free Distillation via Real-world Reinforcement Learning for Robust Contact-Rich Manipulation
+- 09 | 2026 | Decentralized LLM-Driven Coordination of Acoustic Robots for Contactless Object Manipulation
+- 09 | 2026 | Imitation Learning for Robot Assistance in Open Surgery: A Multi-Policy Evaluation on Suture Following
+- 09 | 2026 | Tactile-Proprioceptive Sensor Fusion for Contact Wrench Estimation in Whole-Body Physical Human-Robot Interaction
+- 09 | 2026 | TactileReflex: Noise-Statistics-Driven Vision-Tactile Reflex Control for Force-Sensitive Manipulation
+- 09 | 2026 | PIMbot: A Self-Adaptive Attack Framework for Adversarial Manipulation of Multi-Robot Reinforcement Learning
+- 09 | 2026 | Beyond Action Residuals: Real-World Robot Policy Steering via Bottleneck Latent Reinforcement Learning
+- 09 | 2026 | From a Single Demonstration to a General Policy for Contact-Rich Manipulation
+- 09 | 2026 | OHP-RL: Online Human Preference as Guidance in Reinforcement Learning for Robot Manipulation
+- 09 | 2026 | StereoPolicy: Improving Robotic Manipulation Policies via Stereo Perception
+- 09 | 2026 | A Visuo-Tactile Data Collection System with Haptic Feedback for Coarse-to-Fine Imitation Learning
+- 09 |  | QUERY_ERROR: all:policy AND robot AND tactile
+- 07 | 2026 | World Model Self-Distillation: Training World Models to Solve General Tasks
+- 07 | 2026 | WorldOlympiad: Can Your World Model Survive a Triathlon?
+- 07 | 2026 | MemoryVLA++: Temporal Modeling via Memory and Imagination in Vision-Language-Action Models
+- 07 | 2026 | $ω$-EVA: Envision, Verify, and Act with Latent Interactive World Models
+- 07 | 2026 | ATM: Action-Consistency Transfer Matrix for Diagnosing and Improving Latent World Models
+- 07 | 2026 | SpaceVLN: A Zero-Shot Vision-and-Language Navigation Agent with Online Spatial Cognitive Memory and Reasoning
+- 07 | 2026 | Remember with Confidence: Uncertainty Quantification for Spatio-temporal Memory with Probabilistic Guarantees
+- 07 | 2026 | PRISM: PRior-guided Imagination Sampling in world Models
+- 07 | 2026 | What Makes Video World Model Latents Action-Relevant: Prediction over Reconstruction
+- 07 | 2026 | STRIPS-WM: Learning Grounded Propositional STRIPS-style World Models from Images
+- 07 | 2026 | PLAN-S: Bridging Planning with Latent Style Dynamics for Autonomous Driving World Models
+- 07 | 2026 | World-Language-Action Model for Unified World Modeling, Language Reasoning, and Action Synthesis
+- 07 | 2026 | LongSpace: Exploring Long-Horizon Spatial Memory from Perception to Recall in Video
+- 07 | 2026 | Generalization of World Models under Environmental Variability for Vision-based Quadrotor Navigation
+- 07 | 2026 | MAD: Mapping-Aware World Models for Agile Quadrotor Flight
+- 07 | 2026 | CLAW: Learning Continuous Latent Action World Models via Adversarial Latent Regularization
+- 07 | 2026 | A 3D Isovist World Model -- Revealing a City's Unseen Geometry and Its Emergent Cross-City Signature
+- 07 | 2026 | eMEM: A Hybrid Spatio-Temporal Memory System For Embodied Agents
+- 07 | 2026 | AirDreamer: Generalist Drone Navigation with World Models
+- 07 | 2026 | NVIDIA OmniDreams: Real-Time Generative World Model for Closed-Loop Autonomous Vehicle Simulation
+- 07 | 2026 | Cosmos 3: Omnimodal World Models for Physical AI
+- 07 | 2026 | Learning Action-Conditional and Object-Centric Gaussian Splatting World Models for Rigid Objects
+- 07 | 2026 | Towards Interactive Video World Modeling: Frontiers, Challenges, Benchmarks, and Future Trends
+- 07 | 2026 | SKIP: Sparse Keyframe Interpolation Paradigm for Efficient Embodied World Models
+- 07 | 2026 | TARIC: Memory-Augmented Traversability-Aware Outdoor VLN under Interrupted Semantic Cues
+- 07 | 2026 | World Models: A Comprehensive Survey of Architectures, Methodologies, Reasoning Paradigms, and Applications
+- 07 | 2026 | Memory-Bound but Not Bandwidth-Limited: The Physical AI Inference Gap in Batch-1 LLM Decode
+- 07 | 2026 | VLA-Pro: Cross-Task Procedural Memory Transfer for Vision-Language-Action Models
+- 07 | 2026 | Gamma-World: Generative Multi-Agent World Modeling Beyond Two Players
+- 07 | 2026 | What-If World: A Causal Benchmark for General World Models in Embodied Scenarios
+- 07 | 2026 | Orion: Enabling Self-adaptive Memory Management for On-device Online Continual Learning
+- 07 | 2026 | When Does LeJEPA Learn a World Model?
+- 07 | 2026 | UWM-JEPA: Predictive World Models That Imagine in Belief Space
+- 07 | 2026 | Drift-Resistant Navigation World Model with Anchored Epipolar Guidance
+- 07 | 2026 | The Sound of Malware: A Memory Forensics Approach for Android Malware Analysis via Audio Signals
+- 07 | 2026 | Physical Object Understanding with a Physically Controllable World Model
+- 07 | 2026 | Persona Attack: Incremental Memory Injection Jailbreak Attack against Large Language Models
+- 07 | 2026 | Unlocking the Working Memory of Large Language Models for Latent Reasoning
+- 07 | 2026 | MemMorph: Tool Hijacking in LLM Agents via Memory Poisoning
+- 07 | 2026 | Unified 3D Scene Understanding Through Physical World Modeling
+- 07 | 2026 | Beyond Euclidean Proximity: Repairing Latent World Models with Horizon-Matched Trajectory Reachability Metrics
+- 07 | 2026 | SWEET: Sparse World Modeling with Image Editing for Embodied Task Execution
+- 07 | 2026 | AtlasVA: Self-Evolving Visual Skill Memory for Teacher-Free VLM Agents
+- 07 | 2026 | Learning Bilevel Policies over Symbolic World Models for Long-Horizon Planning
+- 07 | 2026 | Hidden in Memory: Sleeper Memory Poisoning in LLM Agents

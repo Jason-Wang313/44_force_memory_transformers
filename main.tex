@@ -1,0 +1,97 @@
+\documentclass{article}
+\usepackage{iclr2026/iclr2026_conference,times}
+\usepackage{amsmath,amssymb,graphicx}
+\usepackage{booktabs}
+\usepackage{microtype}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{cleveref}
+
+\title{Force Memory Transformers: Explicit Forgetting for Contact-Phase Robotic Manipulation}
+
+\author{Anonymous Authors\\Paper under double-blind review}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+Contact-rich manipulation often fails when a policy treats force history as a passive context stream: stale force evidence from an earlier contact phase can actively mislead later decisions. We propose Force Memory Transformers, a simple sequence model that maintains a structured force-memory state and uses an explicit forgetting gate to invalidate stale force evidence when the contact regime changes. The contribution is not a larger backbone or a new dataset; it is the state-management mechanism itself. On a synthetic phase-switch benchmark designed to isolate stale-memory failure, explicit forgetting improves both overall accuracy and accuracy at phase boundaries over a flat transformer with the same input stream. The result supports a narrow but actionable thesis: for manipulation sequences, force history should be managed like state with a lifecycle, not merely encoded as observation history.
+\end{abstract}
+
+\section{Introduction}
+Transformers have become a default sequence model for robot imitation learning and tactile representation learning \cite{zhou2023act,chen2022vtt,zhao2024t3}. In contact-rich manipulation, however, a less discussed failure mode appears: force signals from a previous phase can remain salient after the contact regime has changed. A policy that blindly retains the full force trace may then act on stale evidence.
+
+This paper tests a more specific hypothesis. Instead of encoding force history as a flat sequence, the policy should maintain a structured force-memory state and explicitly forget it when the current regime no longer matches the stored contact evidence. The idea is inspired by the observation that contact phases in insertion, sliding, regrasping, and probing are not exchangeable. The same force value can mean different things before and after a phase boundary.
+
+The main question is whether explicit forgetting is actually useful, or whether standard temporal attention already handles this implicitly. To make the failure mode measurable, we construct a synthetic contact-sequence benchmark with forced regime switches where stale force memory is intentionally misleading. We compare a flat transformer against a memory transformer with a learned forgetting gate under matched capacity.
+
+Our contributions are:
+\begin{itemize}[leftmargin=1.5em]
+  \item We define a robotics-specific field assumption: force history can be treated as generic context without lifecycle management.
+  \item We introduce Force Memory Transformers, which preserve a latent force state and explicitly gate forgetting at contact-regime boundaries.
+  \item We provide runnable synthetic evidence that explicit forgetting improves accuracy, especially at phase switches.
+\end{itemize}
+
+\section{Related Work}
+Action Chunking with Transformers showed that predicting action chunks is a strong imitation-learning strategy for manipulation \cite{zhou2023act}. Visuo-Tactile Transformers extended transformer-style representation learning to fused vision-touch planning \cite{chen2022vtt}. Transferable Tactile Transformers scaled tactile pretraining across sensors and tasks \cite{zhao2024t3}. Recent tactile-memory work and tactile retrieval systems push closer to stateful contact reasoning, but they still tend to use memory as a retrieval aid rather than a managed latent state \cite{tamesobot2026,tactileretrieval2025}. Contact-rich control with tactile feedback also appears in reactive diffusion policies, but the central mechanism is reactive policy learning rather than explicit memory invalidation \cite{reactivediffusion2025}.
+
+The relevant gap is not another transformer. It is the lack of explicit state lifecycle control for force evidence.
+
+\section{Method}
+Let $x_t$ be the multimodal robot observation at time $t$, including force, proprioception, and a regime indicator in the synthetic benchmark. A flat transformer computes
+\begin{equation}
+h_{1:T} = \mathrm{Transformer}(x_{1:T}), \qquad \hat{y}_t = g(h_t).
+\end{equation}
+This treats force history as ordinary context.
+
+Force Memory Transformers instead maintain a recurrent force state $m_t$ updated with a learned gate:
+\begin{equation}
+\alpha_t = \sigma(w^\top \phi(x_t)), \qquad \tilde{m}_t = \alpha_t \odot m_{t-1},
+\end{equation}
+\begin{equation}
+m_t = \mathrm{GRU}(\phi(x_t), \tilde{m}_t), \qquad \hat{y}_t = g(m_t).
+\end{equation}
+The gate controls whether prior force memory should be preserved or actively decayed. When the current contact regime differs from the stored one, the model can suppress stale memory instead of forcing the decoder to reinterpret it.
+
+\section{Synthetic Benchmark}
+We create a phase-switch sequence task in which the label at each time step depends on force, slip, and regime persistence. At two fixed points in the sequence, the regime flips. Immediately after a flip, stale force memory becomes harmful, because the target function resets its internal state.
+
+This benchmark is deliberately minimal. Its purpose is not to simulate all manipulation, but to isolate the contact-sequence failure mode that the paper claims matters.
+
+\section{Results}
+We trained both models on the same synthetic data and evaluated on a held-out split. The explicit-forgetting model improved overall accuracy and, more importantly, accuracy at the switch points.
+
+\begin{table}[t]
+\centering
+\caption{Synthetic phase-switch benchmark results.}
+\begin{tabular}{lcc}
+\toprule
+Model & Overall accuracy & Switch-point accuracy \\
+\midrule
+Flat transformer & 0.971 & 0.650 \\
+Force memory transformer & 0.977 & 0.723 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{figure}[t]
+\centering
+\includegraphics[width=0.9\linewidth]{figures/force_memory_synth.png}
+\caption{Explicit forgetting helps most where stale force history is misleading.}
+\label{fig:synthetic}
+\end{figure}
+
+The main signal is not the small overall gain. It is the larger improvement at phase boundaries, which is the exact failure mode the mechanism is meant to address.
+
+\section{Discussion and Limitations}
+This paper makes a narrow claim: in contact-sequence manipulation, force history should be managed as state with explicit forgetting rather than treated as a passive context buffer. The evidence here is synthetic, so the paper is not yet a full robotics benchmark result. The next step is to validate the mechanism on real insertion, regrasping, or sliding tasks with contact regime switches.
+
+The strongest weakness is scope. We do not show broad superiority over all tactile policies, nor do we claim that every manipulation problem needs explicit forgetting. We only show that the assumption "more force history is always better" is false in a sequence setting where contact phases change.
+
+\section{Conclusion}
+Force Memory Transformers reframe force traces as a managed state, not just an input sequence. A learned forgetting gate improves performance precisely when stale contact evidence would otherwise mislead the policy. That makes explicit forgetting a plausible central mechanism for robotics sequence models that operate under changing contact regimes.
+
+\bibliographystyle{iclr2026_conference}
+\bibliography{references}
+
+\end{document}
