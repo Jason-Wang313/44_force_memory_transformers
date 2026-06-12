@@ -1,0 +1,300 @@
+19 | 2026 | TacForeSight: Force-Guided Tactile World Model for Contact-Rich Manipulation
+15 | 2026 | Multi-Resolution Tactile Imitation Learning for Contact-Rich Robotic Manipulation
+13 | 2026 | HiMem-WAM: Hierarchical Memory-Gated World Action Models for Robotic Manipulation
+13 | 2026 | Unifying Object-Centric World Models and Diffusion Policy: A Hierarchical Framework for Multi-Stage Robotic Tasks
+13 | 2026 | RoboTrustBench: Benchmarking the Trustworthiness of Video World Models for Robotic Manipulation
+13 | 2026 | $τ_0$-WM: A Unified Video-Action World Model for Robotic Manipulation
+13 | 2026 | World Models for Robotic Manipulation: A Survey
+13 | 2026 | GEM-4D: Geometry-Enhanced Video World Models for Robot Manipulation
+13 | 2026 | GaussianDream: A Feed-Forward 3D Gaussian World Model for Robotic Manipulation
+13 | 2026 | RoboFlow4D: A Lightweight Flow World Model Toward Real-Time Flow-Guided Robotic Manipulation
+12 | 2026 | TORL-VLA: Tactile Guided Online Reinforcement Learning for Contact-Rich Manipulation
+12 | 2026 | Dream-Tac: A Unified Tactile World Action Model for Contact-Rich Robot Manipulation
+12 | 2026 | HapTile: A Haptic-Informed Vision-Tactile-Language-Action Dataset for Contact-Rich Imitation Learning
+12 | 2026 | Spacetime Optimal-Transport Attention for Visuo-Haptic Imitation Learning of Contact-Rich Manipulation
+11 | 2026 | Shaft-integrated Force Sensing with Transformer-based Dynamics Compensation for Telesurgery
+10 | 2026 | PLUME: Probabilistic Latent Unified World Modeling and Parameter Estimation for Multi-Finger Manipulation
+10 | 2026 | iMaC: Translating Actions into Motion and Contact Images for Embodied World Models
+10 | 2026 | Targeting World Models to Compromise Robot Learning Pipelines
+10 | 2026 | Robots Need More than VLA and World Models
+10 | 2026 | PiL-World: A Chunk-Wise World Model for VLA Policy-in-the-Loop Evaluation
+10 | 2026 | OSCAR: Omni-Embodiment Action-Conditioned World Model for Robotics
+10 | 2026 | Worth Remembering: Surprise-Gated Robot Episodic Memory
+10 | 2026 | AURA: Action-Gated Memory for Robot Policies at Constant VRAM
+10 | 2026 | RoboDream: Compositional World Models for Scalable Robot Data Synthesis
+10 | 2026 | Intercepting the Future: Latent-Space Predictive World Model for Dynamic VLA Manipulation
+10 | 2026 | Dynamic Resilient Spatio-Semantic Memory with Hybrid Localization for Mobile Manipulation
+10 | 2026 | StressDream: Steering Video World Models for Robust Policy Evaluation and Improvement
+10 | 2026 | AR Forcing: Towards Long-Horizon Robot Navigation World Model
+10 | 2026 | MiraBench: Evaluating Action-Conditioned Reliability in Robotic World Models
+10 | 2026 | When Search Becomes Memory: Turning Robot Design Trials into Transferable Skills
+10 | 2026 | WorldCraft: From Camera Navigation to Object Manipulation in Interactive Video World Models
+10 | 2026 | Spatial Memory for Out-of-Vision Manipulation in Vision-Language-Action
+10 | 2026 | Feedback World Model Enables Precise Guidance of Diffusion Policy
+10 |  | QUERY_ERROR: all:world model AND robot
+09 | 2026 | FACTR 2: Learning External Force Sensing for Commodity Robot Arms Improves Policy Learning
+09 | 2026 | Ambient Diffusion Policy: Imitation Learning from Suboptimal Data in Robotics
+09 | 2026 | IMPACT: Learning Internal-Model Predictive Control for Forceful Robotic Manipulation
+09 | 2026 | AetheRock: An Arm-Worn Robot Teaching System for Force-Guided Vision-Tactile Learning
+09 | 2026 | Latent Diffusion Policy: Shaping Latent Spaces for Diffusion-Based Robotic Manipulation
+09 | 2026 | FAWAM: Force-Aware World Action Models for Closed-Loop Contact-Rich Manipulation
+09 | 2026 | L-SDPPO: Policy Optimization of Spiking Diffusion Policy for Intra-vehicular Robotic Manipulation
+09 | 2026 | Visuotactile and Explicitly Force-Controlled Robotic Ultrasound for Abdominal Volumetric Reconstruction
+09 | 2026 | Preference-Calibrated Human-in-the-Loop Reinforcement Learning for Robotic Manipulation
+09 | 2026 | VE2VF: Vision-Enabled to Vision-Free Distillation via Real-world Reinforcement Learning for Robust Contact-Rich Manipulation
+09 | 2026 | Decentralized LLM-Driven Coordination of Acoustic Robots for Contactless Object Manipulation
+09 | 2026 | Imitation Learning for Robot Assistance in Open Surgery: A Multi-Policy Evaluation on Suture Following
+09 | 2026 | Tactile-Proprioceptive Sensor Fusion for Contact Wrench Estimation in Whole-Body Physical Human-Robot Interaction
+09 | 2026 | TactileReflex: Noise-Statistics-Driven Vision-Tactile Reflex Control for Force-Sensitive Manipulation
+09 | 2026 | PIMbot: A Self-Adaptive Attack Framework for Adversarial Manipulation of Multi-Robot Reinforcement Learning
+09 | 2026 | Beyond Action Residuals: Real-World Robot Policy Steering via Bottleneck Latent Reinforcement Learning
+09 | 2026 | From a Single Demonstration to a General Policy for Contact-Rich Manipulation
+09 | 2026 | OHP-RL: Online Human Preference as Guidance in Reinforcement Learning for Robot Manipulation
+09 | 2026 | StereoPolicy: Improving Robotic Manipulation Policies via Stereo Perception
+09 | 2026 | A Visuo-Tactile Data Collection System with Haptic Feedback for Coarse-to-Fine Imitation Learning
+09 |  | QUERY_ERROR: all:policy AND robot AND tactile
+07 | 2026 | World Model Self-Distillation: Training World Models to Solve General Tasks
+07 | 2026 | WorldOlympiad: Can Your World Model Survive a Triathlon?
+07 | 2026 | MemoryVLA++: Temporal Modeling via Memory and Imagination in Vision-Language-Action Models
+07 | 2026 | $ω$-EVA: Envision, Verify, and Act with Latent Interactive World Models
+07 | 2026 | ATM: Action-Consistency Transfer Matrix for Diagnosing and Improving Latent World Models
+07 | 2026 | SpaceVLN: A Zero-Shot Vision-and-Language Navigation Agent with Online Spatial Cognitive Memory and Reasoning
+07 | 2026 | Remember with Confidence: Uncertainty Quantification for Spatio-temporal Memory with Probabilistic Guarantees
+07 | 2026 | PRISM: PRior-guided Imagination Sampling in world Models
+07 | 2026 | What Makes Video World Model Latents Action-Relevant: Prediction over Reconstruction
+07 | 2026 | STRIPS-WM: Learning Grounded Propositional STRIPS-style World Models from Images
+07 | 2026 | PLAN-S: Bridging Planning with Latent Style Dynamics for Autonomous Driving World Models
+07 | 2026 | World-Language-Action Model for Unified World Modeling, Language Reasoning, and Action Synthesis
+07 | 2026 | LongSpace: Exploring Long-Horizon Spatial Memory from Perception to Recall in Video
+07 | 2026 | Generalization of World Models under Environmental Variability for Vision-based Quadrotor Navigation
+07 | 2026 | MAD: Mapping-Aware World Models for Agile Quadrotor Flight
+07 | 2026 | CLAW: Learning Continuous Latent Action World Models via Adversarial Latent Regularization
+07 | 2026 | A 3D Isovist World Model -- Revealing a City's Unseen Geometry and Its Emergent Cross-City Signature
+07 | 2026 | eMEM: A Hybrid Spatio-Temporal Memory System For Embodied Agents
+07 | 2026 | AirDreamer: Generalist Drone Navigation with World Models
+07 | 2026 | NVIDIA OmniDreams: Real-Time Generative World Model for Closed-Loop Autonomous Vehicle Simulation
+07 | 2026 | Cosmos 3: Omnimodal World Models for Physical AI
+07 | 2026 | Learning Action-Conditional and Object-Centric Gaussian Splatting World Models for Rigid Objects
+07 | 2026 | Towards Interactive Video World Modeling: Frontiers, Challenges, Benchmarks, and Future Trends
+07 | 2026 | SKIP: Sparse Keyframe Interpolation Paradigm for Efficient Embodied World Models
+07 | 2026 | TARIC: Memory-Augmented Traversability-Aware Outdoor VLN under Interrupted Semantic Cues
+07 | 2026 | World Models: A Comprehensive Survey of Architectures, Methodologies, Reasoning Paradigms, and Applications
+07 | 2026 | Memory-Bound but Not Bandwidth-Limited: The Physical AI Inference Gap in Batch-1 LLM Decode
+07 | 2026 | VLA-Pro: Cross-Task Procedural Memory Transfer for Vision-Language-Action Models
+07 | 2026 | Gamma-World: Generative Multi-Agent World Modeling Beyond Two Players
+07 | 2026 | What-If World: A Causal Benchmark for General World Models in Embodied Scenarios
+07 | 2026 | Orion: Enabling Self-adaptive Memory Management for On-device Online Continual Learning
+07 | 2026 | When Does LeJEPA Learn a World Model?
+07 | 2026 | UWM-JEPA: Predictive World Models That Imagine in Belief Space
+07 | 2026 | Drift-Resistant Navigation World Model with Anchored Epipolar Guidance
+07 | 2026 | The Sound of Malware: A Memory Forensics Approach for Android Malware Analysis via Audio Signals
+07 | 2026 | Physical Object Understanding with a Physically Controllable World Model
+07 | 2026 | Persona Attack: Incremental Memory Injection Jailbreak Attack against Large Language Models
+07 | 2026 | Unlocking the Working Memory of Large Language Models for Latent Reasoning
+07 | 2026 | MemMorph: Tool Hijacking in LLM Agents via Memory Poisoning
+07 | 2026 | Unified 3D Scene Understanding Through Physical World Modeling
+07 | 2026 | Beyond Euclidean Proximity: Repairing Latent World Models with Horizon-Matched Trajectory Reachability Metrics
+07 | 2026 | SWEET: Sparse World Modeling with Image Editing for Embodied Task Execution
+07 | 2026 | AtlasVA: Self-Evolving Visual Skill Memory for Teacher-Free VLM Agents
+07 | 2026 | Learning Bilevel Policies over Symbolic World Models for Long-Horizon Planning
+07 | 2026 | Hidden in Memory: Sleeper Memory Poisoning in LLM Agents
+07 | 2026 | Retrieve-then-Steer: Online Success Memory for Test-Time Adaptation of Generative VLAs
+07 | 2026 | ECHO: Continuous Hierarchical Memory for Vision-Language-Action Models
+07 | 2026 | Latent Geometry Beyond Search: Amortizing Planning in World Models
+06 | 2026 | VICX: Generalizable Robot Manipulation via Video Generation and In-Context Operator Network
+06 | 2026 | Deformable In-Hand Slip-Aware Tactile Sensor with Integrated Velocity, Force/Torque, and Pressure Map Sensing
+06 | 2026 | Blind Dexterous Grasping via Real2Sim2Real Tactile Policy Learning
+06 | 2026 | Distortion-Resilient Robotic Imitation Learning for Autonomous Cable Routing
+06 | 2026 | Bridging the sim2real gap in the table tennis robot with a transformer-based ball states predictor
+06 | 2026 | HiPi: Reproducible High-Fidelity Piezoresistive Sensors for Robotic Manipulation
+06 | 2026 | Hand-centric Human-to-Robot Trajectory Transfer from Video Demonstrations via Open-World Contact Localization
+06 | 2026 | UMI-Bench 1.0: An Open and Reproducible Real-World Benchmark for Tabletop Robotic Manipulation with UMI Data
+06 | 2026 | SARM2: Multi-Task Stage Aware Reward Modeling for Self Improving Robotic Manipulation
+06 | 2026 | GHOST: Hierarchical Sub-Goal Policies for Generalizing Robot Manipulation
+06 | 2026 | Dense Force Estimation with an Event-based Optical Tactile Sensor
+06 | 2026 | RGB-S: Image-Aligned Tactile Saliency for Robust Dexterous Manipulation
+06 | 2026 | HARBOR: A Harness Framework for Agentic Robot Reinforcement Learning
+06 | 2026 | Autonomous Aerial Manipulation via Contextual Contrastive Meta Reinforcement Learning
+06 | 2026 | GEAR-VLA: Learning Geometry-Aware Action Representations for Generalizable Robotic Manipulation
+06 | 2026 | SIMPLE: Simulation-Based Policy Learning and Evaluation for Humanoid Loco-manipulation
+06 | 2026 | Propeller-Assisted Robust 3D Hopping Robot with Hierarchical Force Allocation
+06 | 2026 | Reinforcement learning in linear embedding space unlocks generalizable control across soft robot configurations
+06 | 2026 | Revisiting Articulated Parts Perception in Robot Manipulation
+06 | 2026 | Path Planning Using Deep Deterministic Policy Gradient: A Reinforcement Learning Approach
+06 | 2026 | Spline Policy: A Structured Representation for Robot Policies
+06 | 2026 | Robotic Policy Adaptation via Weight-Space Meta-Learning
+06 | 2026 | ActionMap: Robot Policy Learning via Voxel Action Heatmap
+06 | 2026 | AxisGuide: Grounding Robot Action Coordinate System in RGB Observations for Robust Visuomotor Manipulation
+06 | 2026 | What Matters When Cotraining Robot Manipulation Policies on Everyday Human Videos?
+06 | 2026 | PhyRoGen: Synthetic Generation of Physical Robot Manipulation Puzzles Using Procedural Content Generation
+06 | 2026 | A Conversational Framework for Human-Robot Collaborative Manipulation with Distributed Generative AI models
+06 | 2026 | Sample-efficient Low-level Motion Planning for Robotic Manipulation Tasks via Zero-shot Transfer Learning
+06 | 2026 | RealDexUMI: A Wearable Universal Manipulation Interface for Dexterous Robot Learning
+06 | 2026 | Accelerating and Scaling MPC-Guided Reinforcement Learning for Humanoid Locomotion and Manipulation
+06 | 2026 | Safe Embodied AI for Long-horizon Tasks: A Cross-layer Analysis of Robotic Manipulation
+06 | 2026 | Dream.exe: Can Video Generation Models Dream Executable Robot Manipulation?
+06 | 2026 | COP-Q: Safety-First Reinforcement Learning for Robot Control via Cholesky-Ordered Projection
+06 | 2026 | Instant-Fold: In-Context Imitation Learning for Deformable Object Manipulation
+06 | 2026 | What Are We Actually Benchmarking in Robot Manipulation?
+06 | 2026 | Revisiting Embodied Chain-of-Thought for Generalizable Robot Manipulation
+06 | 2026 | Static and Dynamic Representations for Tactile Contact-Angle Estimation with Event-Based Sensors
+06 | 2026 | Grasp-Then-Plan with Failure Attribution: A Closed Two-Stage Framework for Precise and Generalizable Robotic Manipulation
+06 | 2026 | GPU-Parallel Multi-Task Reinforcement Learning with Demonstration Guided Policy Optimization
+06 | 2026 | How Visible Are Silent Manipulation Failures? An Observability Study of False-Success Detection in Simulated Robot Episodes
+06 | 2026 | Expanding Spatial and Temporal Context for Robotic Imitation Learning With Scene Graphs
+06 | 2026 | Learning Multi-Modal Trajectory Policies for Data-Efficient Robotic Manipulation
+06 | 2026 | Generative Multi-Robot Motion Planning via Diffusion Modeling with Multi-Agent Reinforcement Learning Guidance
+06 | 2026 | PaCo-VLA: Passivity-Shielded Compliance Prior for Contact-Rich Vision-Language-Action Manipulation
+06 | 2026 | Literary Emotions in Motion: A Soft Robotics Installation for Tactile Storytelling
+06 | 2026 | Surface Constraint Policy for Learning Surface-Constrained and Dynamically Feasible Robot Skills
+06 | 2026 | RDGen: Demonstration Generation for High-Quality Robot Learning via Reinforcement Learning
+06 | 2026 | Object-Informed Model Predictive Path Integral Control for Non-Prehensile Robot Manipulation
+06 | 2026 | GSAM: A Generalizable and Safe Robotic Framework for Articulated Object Manipulation
+06 | 2026 | ZAPS-DA: Zero-Phase Action Policy Smoothing with Decoupled Actor for Continuous Control in Reinforcement Learning
+06 | 2026 | Physics-informed Goal-Conditioned Reinforcement Learning under Hybrid Contact Dynamics
+06 | 2026 | Gaze2Act: Gaze-Conditioned Vision-Language-Action Policies for Interactive Robot Manipulation
+06 | 2026 | LLM-Guided Future Hypotheses for Horizon-Aware Exploration in Multi-Step Robot Manipulation
+06 | 2026 | Phase-Conditioned Imitation Learning with Autonomous Failure Recovery for Robust Deformable Object Manipulation
+06 | 2026 | Beyond Binary: Sim-to-Real Dexterous Manipulation with Physics-Grounded Contact Representation
+06 | 2026 | PrimitiveVLA: Learning Reusable Motion Primitives for Efficient and Generalizable Robotic Manipulation
+06 | 2026 | Mag-VLA: Vision-Language-Action Model for Bimanual Magnetically Actuated Microrobot Manipulation
+06 | 2026 | EIT-Pneumatic Hybrid Robotic Skin for Practical and Accurate Force Map Reconstruction
+06 | 2026 | A Digital Twin Framework for Virtual Visuo-Haptic Teleoperation of Complex-Shaped Optical Microrobots
+06 | 2026 | Teacher-Student Representational Alignment for Reinforcement Learning-Driven Imitation Learning
+06 | 2026 | Magnet-Based Soft Robotic Skin Using a 3D-Printed Multi-Lattice Structure and CNN-Based Tactile Super-Resolution
+06 | 2026 | ProgVLA: Progress-Aware Robot Manipulation Skill Learning
+06 | 2026 | Simultaneous Contact Selection and Planning for Contact-Rich Manipulation with Cascaded Optimization
+06 | 2026 | Tabero: Learning Gentle Manipulation with Closed-Loop Force Feedback from Vision, Touch, and Language
+06 | 2026 | Inducing Calmness With Pocket-Sized Robotics: Reducing Movement and Heart Rate in Children through Hand-Held Tactile Interactions
+06 | 2026 | GE-Sim 2.0: A Roadmap Towards Comprehensive Closed-loop Video World Simulators for Robotic Manipulation
+06 | 2026 | HyperSim: A Holistic Sim-To-Real Framework For Robust Robotic Manipulation
+06 | 2026 | OASIS: Observation-Action Space Alignment via SE(3) Trajectory Prediction for Robotic Manipulation
+06 | 2026 | When Agents Control Robots: A Zero Trust Policy Model for Agentic Cyber-Physical Systems
+06 | 2026 | TapSampling: Inference-Time Sampling with a Task-Progress-Understanding Verifier for Robotic Manipulation
+06 | 2026 | How to Mitigate the Distribution Shift Problem in Robotics Control: A Robust and Adaptive Approach Based on Offline to Online Imitation Learning
+06 | 2026 | Prior Policy Guided Dual-Agent Coordinated Manipulation Planning of Spacecraft-Manipulator System
+06 | 2026 | Thinking Without Images: Internalizing Visual Manipulation with On-Policy Self-Distillation
+06 | 2026 | Beyond Independent Manipulation: Individual Fairness-aware Strategic Classification with Peer Imitation
+06 | 2026 | IsaacIPC: Coupling High-Fidelity Simulation and Realistic Rendering for Contact-Rich Robotic Systems
+06 | 2026 | Robotic Strawberry Harvesting with Robust Vision and Deep Reinforcement Learning based Sim-to-Real Control
+06 | 2026 | Semantically Structured Mixture-of-Experts for Compositional Robotic Manipulation
+06 | 2026 | TacO: Benchmarking Tactile Sensors for Object Manipulation
+06 | 2026 | Safe and Steerable Geometric Motion Policies for Robotic Dexterous Manipulation
+06 | 2026 | roto 2.0: The Robot Tactile Olympiad
+06 | 2026 | Learning Robust Dexterous In-Hand Manipulation from Joint Sensors with Proprioceptive Transformer
+06 | 2026 | Learning Structural Latent Points for Efficient Visual Representations in Robotic Manipulation
+06 | 2026 | WiXus: A Wheeled-Legged Robot with Wire-Driven Environmental Utilizing to Integrate Mobility and Manipulation
+06 | 2026 | Mobile UMI: Cross-View Diffusion Policy with Decoupled Kinematics for Mobile Manipulation
+06 | 2026 | RoHIL: Robust Human-in-the-Loop Robotic Reinforcement Learning Against Illumination Variations
+06 | 2026 | Distributionally Robust Control via Stein Variational Inference for Contact-Rich Manipulation
+06 | 2026 | ManiSoft: Towards Vision-Language Manipulation for Soft Continuum Robotics
+06 | 2026 | Not What You Asked For: Typographic Attacks in Household Robot Manipulation
+06 | 2026 | From Human Videos to Robot Manipulation: A Survey on Scalable Vision-Language-Action Learning with Human-Centric Data
+06 | 2026 | Tactile-based Multimodal Fusion in Embodied Intelligence: A Survey of Vision, Language, and Contact-Driven Paradigms
+06 | 2026 | How to Instruct Your Robot: Dense Language Annotations Power Robot Policy Learning
+06 | 2026 | SADP: Subgoal-Aware Diffusion Policy for Explainable Robots Learned from Foundation Model Generated Demonstrations
+06 | 2026 | KaRMA: A Kinematic Metric for Fine Manipulation Ability in Robotic Hands
+06 | 2026 | SkiP: When to Skip and When to Refine for Efficient Robot Manipulation
+06 | 2026 | IntentVLA: Short-Horizon Intent Modeling for Aliased Robot Manipulation
+06 | 2026 | RoboEvolve: Co-Evolving Planner-Simulator for Robotic Manipulation with Limited Data
+06 | 2026 | SafeManip: A Property-Driven Benchmark for Temporal Safety Evaluation in Robotic Manipulation
+06 | 2026 | From Imagined Futures to Executable Actions: Mixture of Latent Actions for Robot Manipulation
+06 | 2026 | From Reaction to Anticipation: Proactive Failure Recovery through Agentic Task Graph for Robotic Manipulation
+06 | 2026 | Learning Action Manifold with Multi-view Latent Priors for Robotic Manipulation
+06 | 2026 | Offline Policy Evaluation for Manipulation Policies via Discounted Liveness Formulation
+06 | 2026 | ForceFlow: Learning to Feel and Act via Contact-Driven Flow Matching
+06 | 2026 | Zero-Shot Sim-to-Real Robot Learning: A Dexterous Manipulation Study on Reactive Catching
+06 | 2026 | ElasticFlow: One-Step Physics-Consistent Policy with Elastic Time Horizons for Language-Guided Manipulation
+06 | 2026 | ProcVLM: Learning Procedure-Grounded Progress Rewards for Robotic Manipulation
+06 |  | QUERY_ERROR: all:transformer AND robotics
+06 |  | QUERY_ERROR: all:imitation learning AND robot
+06 |  | QUERY_ERROR: all:contact-rich AND robot
+06 |  | QUERY_ERROR: all:haptic AND robot
+03 | 2026 | Illumination-Robust Camera-Based Heart-Rate Estimation for Physiological Sensing in Robots
+03 | 2026 | Semantically-Aware Diver Activity Recognition Framework for Effective Underwater Multi-Human-Robot Collaboration
+03 | 2026 | UniIntervene: Agentic Intervention for Efficient Real-World Reinforcement Learning
+03 | 2026 | CHORUS: Decentralized Multi-Embodiment Collaboration with One VLA Policy
+03 | 2026 | Traceable Virtual Sea Trials in the Marine Robotics Unity Simulator for Manoeuvring Assessment of Unmanned Surface Vehicles
+03 | 2026 | Fourier Features Let Agents Learn High Precision Policies with Imitation Learning
+03 | 2026 | PEBRE: An Open-Hardware Compute and Perception Add-On for the Pepper Robot
+03 | 2026 | Bridging the Morphology Gap: Adapting VLA Models to Dexterous Manipulation via Intent-Conditioned Fine-Tuning
+03 | 2026 | Fibration Trees: A Unified Approach to Multi-Robot Motion Planning
+03 | 2026 | KinematicRL: A Sim-to-Real Reinforcement Learning Framework For Social Navigation With Kinodynamic Feasibility
+03 | 2026 | DuoBench: A Reproducible Benchmark for Bimanual Manipulation in Simulation and the Real World
+03 | 2026 | Critic Architecture Matters: Dual vs. Unified Critics for Humanoid Loco-Manipulation
+03 | 2026 | Human-Guided Co-Manipulation of Carbon Fiber Plies
+03 | 2026 | Segment-Wise Soft Robotics Inspired Flexible Antenna Arrays: Design and Optimization
+03 | 2026 | TacCoRL: Integrating Tactile Feedback into VLA via Simulation
+03 | 2026 | SAFER-Nav: Enhancing Safety for Visual Robot Navigation via Segmentation-Aware Fine-Tuning
+03 | 2026 | LUCID: Learning Embodiment-Agnostic Intent Models from Unstructured Human Videos for Scalable Dexterous Robot Skill Acquisition
+03 | 2026 | Cross-Modal Benchmarking for Robotic Perception in Natural Environments
+03 | 2026 | Adversarial Attacks on Learned Policies for Surgical Robotic Tasks
+03 | 2026 | Learning Object Manipulation from Scratch via Contrastive Interaction
+03 | 2026 | Steering Multirobot Behavior via Closed-Loop Affine Activation Editing
+03 | 2026 | A Modular Dual-Camera Pipeline for Micro-Inspection Using Aerial Robots
+03 | 2026 | Dynamic Execution Horizon Prediction for Chunk-based Robot Policies
+03 | 2026 | From Simulation to Real-World: An In-Field 6D Pose Dataset and Baseline for Robotic Strawberry Harvesting
+03 | 2026 | JOIN: Anchor-Grasp-Conditioned Joining via Opposition, Inference, and Navigation for Bimanual Assistive Manipulation
+03 | 2026 | EM-Fall: Embodied mmWave Sensing for Day-and-Night Fall Detection on Humanoid Robots
+03 | 2026 | RoboNaldo: Accurate, Stable and Powerful Humanoid Soccer Shooting via Motion-Guided Curriculum Reinforcement Learning
+03 | 2026 | Test-Time Gradient Guidance of Flow Policies in Reinforcement Learning
+03 | 2026 | Generation of Diverse and Functional Robot Designs using Superquadrics Parametrisation and Quality-Diversity
+03 | 2026 | Resilient Navigation for Autonomous Farm Robots by Leveraging Jerk-Augmented Models with IMU-Only Disturbance Rejection
+03 | 2026 | AllDayNav: Lifelong Navigation via Real-World Reinforcement Learning
+03 | 2026 | Task Robustness via Re-Labelling Vision-Action Robot Data
+03 | 2026 | AgniNav: Configuration-Driven Cross-Embodiment Local Planning for Robot Navigation
+03 | 2026 | MV-Actor: Aligning Multi-View Semantics and Spatial Awareness for Bimanual Manipulation
+03 | 2026 | Embodiment-conditioned Generalist Control for Multirotor Aerial Robots
+03 | 2026 | Bridging Semantics and Physical Execution: A Neuro-Symbolic Framework for Multi-Pair Robotic Assembly
+03 | 2026 | On-sky demonstration of reinforcement learning for adaptive optics control
+03 | 2026 | ros2probe: Non-intrusive, Kernel-selective Observability for Robot Operating System 2 Middleware
+03 | 2026 | Model-based Optimization of Anguilliform Swimming Gaits for Soft Robotic Applications
+03 | 2026 | ManiSplat: Manipulation Trajectory Synthesis from Monocular Video via Decoupled 3D Gaussian Splatting
+03 | 2026 | Dexterous Point Policy: Learning Point-based Dexterous Hand Policies from Human Demonstrations
+03 | 2026 | GuideWalk: Learning Unified Autonomous Navigation and Locomotion for Humanoid Robots across Versatile Terrains
+03 | 2026 | Test-time Adversarial Takeover: A Real-time Hijacking Interface against Robotic Diffusion Policies
+03 | 2026 | Baseline-Free Policy Optimization for Neural Combinatorial Optimization
+03 | 2026 | MARCH: Model-Assisted Reinforcement Learning for the Perceptive Control of Humanoids over Sparse Footholds
+03 | 2026 | Hierarchical Policies from Verbal and Egocentric Human Signals for Natural Human-Robot Interaction
+03 | 2026 | What Matters in Orchestrating Robot Policies: A Systematic Study of Hierarchical VLA Agents
+03 | 2026 | YUBI: Yielding Universal Bidigital Interface for Bimanual Dexterous Manipulation at Scale
+03 | 2026 | What Demonstration Curation Metrics Do to Your Policy
+03 | 2026 | SHAPO: Sharpness-Aware Policy Optimization for Safe Exploration
+03 | 2026 | Exploration of Foundation Model-Based Robots in Patient and Elderly Care
+03 | 2026 | Robotic Nonprehensile Object Transportation with a Hanging Tray
+03 | 2026 | Difference-Aware Retrieval Policies for Imitation Learning
+03 | 2026 | Physics-Aware Sparse Learning and Selective Online Adaptation for Euler-Lagrange Robot Dynamics
+03 | 2026 | Motion planning for hundreds of floating robots
+03 | 2026 | DexPIE: Stable Dexterous Policy Improvement from Real-World Experience
+03 | 2026 | Shape Formation for the Cooperative Transportation of Arbitrary Objects Using Multi-Agent Reinforcement Learning
+03 | 2026 | Safe-RULE: Safe Reinforcement UnLEarning
+03 | 2026 | Goal Sets, Not Goal States: Queryable Robot Goals through Goal-Set Hindsight Relabeling
+03 | 2026 | Harness Engineering for Physical AI: Robot Middleware Is the Harness Layer
+03 | 2026 | MASK: Multi-Agent Semantic K-Scheduling for Risk-Sensitive 6G Robotics
+03 | 2026 | ReGIL: Retrieval-Guided Imitation Learning from a Single Demonstration
+03 | 2026 | VGP-Nav: Metric-Aware Visual Geometric Perception for Robot Navigation
+03 | 2026 | EgoTactile: Learning Grasp Pressure for Everyday Objects from Egocentric Video
+03 | 2026 | Self-Paced Curriculum Reinforcement Learning for Autonomous Superbike Racing in Simulation
+03 | 2026 | MotionWAM: Towards Foundation World Action Models for Real-Time Humanoid Loco-Manipulation
+03 | 2026 | Autonomous Obstacle Removal for Excavators through Policy Learning with Particle Simulation
+03 | 2026 | Safe, Fluent and Acceptable Motion Generation and Execution for Human--Robot Interaction in Manufacturing Environments
+03 | 2026 | Reinforcement Learning for Flow-Matching Policies with Density Transport
+03 | 2026 | Real-IKEA: Physical Fidelity is the Prerequisite for Robust Manipulation
+03 | 2026 | OASIS: From Simulation Data Collection to Real-World Humanoid Loco-Manipulation
+03 | 2026 | When Video Misreads: Closed-Loop Distillation of Reading Heuristics for Exploratory Manipulation Trace QA
+03 | 2026 | Towards End to End Motion Planning and Execution for Autonomous Underwater Vehicles Using Reinforcement Learning
+03 | 2026 | ActProbe: Action-Space Probe for Early Failure Detection of Generative Robot Policies
+03 | 2026 | Personalized and Robust Proactive Robot Assistance with Uncertainty-Guided LLM Reasoning
+03 | 2026 | GraspFoM: Towards Reconstruction-Driven Robotic Grasping with 3D Foundation Priors
+03 | 2026 | PACT: Self-Evolving Physical Safety Alignment for Diffusion Policies in Embodied Manipulation
+03 | 2026 | Co-GLANCE: Uncertainty-Aware Active Perception for Heterogeneous Robot Teaming
+03 | 2026 | Uncertainty-Aware Intention Prediction for Human-to-Robot Assembly Teleoperation
+03 | 2026 | Impedance MPC for Physical Human-Robot Interaction: Predictive Disturbance Rejection with Joint-Limit Safety
+03 | 2026 | Disturbance-Aware Aerial Robotics for Ethical Wildlife Monitoring
+03 | 2026 | Agentic Neuro-Symbolic Planning and Commissioning for Human-in-the-Loop Industrial Robotics with Digital Twins
+03 | 2026 | CLASP: Language-Driven Robot Skill Selection and Composition using Task-Parameterized Learning
+03 | 2026 | SynthICL: Scalable In-context Imitation Learning with Synthetic Data
+03 | 2026 | Vision-Guided Dual-Arm Humanoid Robotic Disassembly of End-of-Life 18650 Lithium-ion Battery Packs
+03 | 2026 | Ego-Pi: VLA Fine-Tuning for Ego-Centric Human and Robot Data
+03 | 2026 | Continual Quadruped Robots Coordination via Semantic Skill Discovery
+03 | 2026 | Cooperative Long Rope Skipping via Multi-Agent Reinforcement Learning

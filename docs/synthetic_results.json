@@ -1,0 +1,10 @@
+{
+  "flat_transformer": {
+    "overall_acc": 0.9708333611488342,
+    "switch_acc": 0.6499999761581421
+  },
+  "forget_memory_transformer": {
+    "overall_acc": 0.9769444465637207,
+    "switch_acc": 0.7233333587646484
+  }
+}
