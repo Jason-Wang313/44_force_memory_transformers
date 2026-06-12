@@ -11,7 +11,7 @@
 9. Biggest weaknesses: Evidence is synthetic and narrow; broader real-robot validation is still missing; several cited prior works are represented through accessible abstracts/snippets rather than full-text rereads.
 10. Paper-readiness judgment: workshop
 11. Exact Downloads PDF path: `C:/Users/wangz/Downloads/44.pdf`
-12. GitHub URL: pending push
+12. GitHub URL: https://github.com/Jason-Wang313/44_force_memory_transformers
 13. Desktop copy status: pending orchestrator copy
 
 ## Notes
