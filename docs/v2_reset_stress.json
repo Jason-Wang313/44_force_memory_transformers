@@ -1,0 +1,27 @@
+[
+  {
+    "method": "Flat transformer",
+    "overall_acc": 0.9708333611488342,
+    "switch_acc": 0.6499999761581421
+  },
+  {
+    "method": "Learned forget gate",
+    "overall_acc": 0.9769444465637207,
+    "switch_acc": 0.7233333587646484
+  },
+  {
+    "method": "Regime-reset rule",
+    "overall_acc": 1.0,
+    "switch_acc": 1.0
+  },
+  {
+    "method": "Reset rule, 10% regime flips",
+    "overall_acc": 0.9323611111111111,
+    "switch_acc": 0.9166666666666666
+  },
+  {
+    "method": "Reset rule, 20% regime flips",
+    "overall_acc": 0.8781944444444445,
+    "switch_acc": 0.8416666666666667
+  }
+]

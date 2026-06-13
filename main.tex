@@ -15,8 +15,14 @@
 \maketitle
 
 \begin{abstract}
-Contact-rich manipulation often fails when a policy treats force history as a passive context stream: stale force evidence from an earlier contact phase can actively mislead later decisions. We propose Force Memory Transformers, a simple sequence model that maintains a structured force-memory state and uses an explicit forgetting gate to invalidate stale force evidence when the contact regime changes. The contribution is not a larger backbone or a new dataset; it is the state-management mechanism itself. On a synthetic phase-switch benchmark designed to isolate stale-memory failure, explicit forgetting improves both overall accuracy and accuracy at phase boundaries over a flat transformer with the same input stream. The result supports a narrow but actionable thesis: for manipulation sequences, force history should be managed like state with a lifecycle, not merely encoded as observation history.
+Contact-rich manipulation often fails when a policy treats force history as a passive context stream: stale force evidence from an earlier contact phase can actively mislead later decisions. We propose Force Memory Transformers, a simple sequence model that maintains a structured force-memory state and uses an explicit forgetting gate to invalidate stale force evidence when the contact regime changes. The contribution is not a larger backbone or a new dataset; it is the state-management mechanism itself. On a synthetic phase-switch benchmark designed to isolate stale-memory failure, explicit forgetting improves both overall accuracy and accuracy at phase boundaries over a flat transformer with the same input stream. A v2 hardening stress shows that a hand-coded regime-reset rule reaches 1.000 overall and switch-point accuracy, while reset performance falls under corrupted regime-boundary signals. The result supports a narrow but actionable thesis: for manipulation sequences, force history should be managed like state with a lifecycle, but this toy does not establish learned-gate superiority over simple reset rules.
 \end{abstract}
+
+\paragraph{V2 hardening note.}
+Submission-hardening version: v2. Decision: workshop-only. The reset-rule stress
+narrows the claim to force-memory lifecycle management. The learned gate is a
+useful implementation sketch, but the synthetic task is solved by an oracle
+regime-reset rule and depends on reliable phase-boundary signals.
 
 \section{Introduction}
 Transformers have become a default sequence model for robot imitation learning and tactile representation learning \cite{zhou2023act,chen2022vtt,zhao2024t3}. In contact-rich manipulation, however, a less discussed failure mode appears: force signals from a previous phase can remain salient after the contact regime has changed. A policy that blindly retains the full force trace may then act on stale evidence.
@@ -74,6 +80,13 @@ Force memory transformer & 0.977 & 0.723 \\
 \end{tabular}
 \end{table}
 
+\begin{table}[t]
+\centering
+\input{v2_reset_stress_table.tex}
+\caption{V2 reset-rule stress. A hand-coded regime reset solves the toy, while corrupted regime-boundary signals degrade reset performance.}
+\label{tab:v2-reset}
+\end{table}
+
 \begin{figure}[t]
 \centering
 \includegraphics[width=0.9\linewidth]{figures/force_memory_synth.png}
@@ -81,15 +94,15 @@ Force memory transformer & 0.977 & 0.723 \\
 \label{fig:synthetic}
 \end{figure}
 
-The main signal is not the small overall gain. It is the larger improvement at phase boundaries, which is the exact failure mode the mechanism is meant to address.
+The main signal is not the small overall gain. It is the larger improvement at phase boundaries, which is the exact failure mode the mechanism is meant to address. However, \cref{tab:v2-reset} shows that the benchmark is also solved by a hand-coded reset rule when the regime indicator is reliable. The evidence therefore supports explicit force-memory lifecycle management, not a claim that the learned forgetting gate is uniquely necessary.
 
 \section{Discussion and Limitations}
 This paper makes a narrow claim: in contact-sequence manipulation, force history should be managed as state with explicit forgetting rather than treated as a passive context buffer. The evidence here is synthetic, so the paper is not yet a full robotics benchmark result. The next step is to validate the mechanism on real insertion, regrasping, or sliding tasks with contact regime switches.
 
-The strongest weakness is scope. We do not show broad superiority over all tactile policies, nor do we claim that every manipulation problem needs explicit forgetting. We only show that the assumption "more force history is always better" is false in a sequence setting where contact phases change.
+The strongest weakness is scope. We do not show broad superiority over all tactile policies, nor do we claim that every manipulation problem needs explicit forgetting. The v2 reset-rule stress adds a second weakness: the toy rewards access to a clean regime-boundary signal, and a simple hand-coded reset rule outperforms the learned model. We only show that the assumption "more force history is always better" is false in a sequence setting where contact phases change.
 
 \section{Conclusion}
-Force Memory Transformers reframe force traces as a managed state, not just an input sequence. A learned forgetting gate improves performance precisely when stale contact evidence would otherwise mislead the policy. That makes explicit forgetting a plausible central mechanism for robotics sequence models that operate under changing contact regimes.
+Force Memory Transformers reframe force traces as a managed state, not just an input sequence. A learned forgetting gate improves performance precisely when stale contact evidence would otherwise mislead the policy, but v2 hardening shows that the supported mechanism is reset-aware state management rather than learned-gate novelty. That makes explicit forgetting a plausible central mechanism for robotics sequence models that operate under changing contact regimes.
 
 \bibliographystyle{iclr2026_conference}
 \bibliography{references}

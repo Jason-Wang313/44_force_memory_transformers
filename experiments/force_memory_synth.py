@@ -98,6 +98,78 @@ def train(model, Xtr, ytr, Xte, yte, epochs=12):
         sw = (pred[:, switch_idx] == yte[:, switch_idx]).float().mean().item()
     return acc, sw
 
+def reset_rule_predictions(X, flip_p=0.0, seed=11):
+    rng = np.random.default_rng(seed)
+    n, T, _ = X.shape
+    pred = np.zeros((n, T), dtype=np.float32)
+    observed_regime = X[:, :, 2].copy()
+    if flip_p > 0:
+        flips = rng.random(observed_regime.shape) < flip_p
+        observed_regime = np.where(flips, 1.0 - observed_regime, observed_regime)
+    for i in range(n):
+        mem = 0.0
+        for t in range(T):
+            r = observed_regime[i, t]
+            if t == 0 or observed_regime[i, t] != observed_regime[i, t - 1]:
+                mem = 0.0
+            else:
+                mem = 0.8 * mem + 0.2 * X[i, t, 0]
+            pred[i, t] = 1.0 if (mem + 0.3 * X[i, t, 1] + 0.2 * r) > 0.25 else 0.0
+    return pred
+
+def score_predictions(pred, y):
+    switch_idx = [7, 15]
+    return {
+        "overall_acc": float((pred == y).mean()),
+        "switch_acc": float((pred[:, switch_idx] == y[:, switch_idx]).mean()),
+    }
+
+def write_v2_reset_stress(results, Xte, yte):
+    Path = __import__("pathlib").Path
+    def tex_escape(text):
+        return text.replace("%", "\\%")
+
+    rows = [
+        {
+            "method": "Flat transformer",
+            "overall_acc": results["flat_transformer"]["overall_acc"],
+            "switch_acc": results["flat_transformer"]["switch_acc"],
+        },
+        {
+            "method": "Learned forget gate",
+            "overall_acc": results["forget_memory_transformer"]["overall_acc"],
+            "switch_acc": results["forget_memory_transformer"]["switch_acc"],
+        },
+    ]
+    for label, flip_p in [
+        ("Regime-reset rule", 0.0),
+        ("Reset rule, 10% regime flips", 0.10),
+        ("Reset rule, 20% regime flips", 0.20),
+    ]:
+        scored = score_predictions(reset_rule_predictions(Xte, flip_p=flip_p), yte)
+        rows.append({"method": label, **scored})
+
+    Path(OUT, "v2_reset_stress.json").write_text(json.dumps(rows, indent=2), encoding="utf-8")
+    Path(OUT, "v2_reset_stress.csv").write_text(
+        "method,overall_acc,switch_acc\n"
+        + "\n".join(f"{row['method']},{row['overall_acc']:.6f},{row['switch_acc']:.6f}" for row in rows)
+        + "\n",
+        encoding="utf-8",
+    )
+    table = (
+        "\\begin{tabular}{lcc}\n"
+        "\\toprule\n"
+        "Method & Overall accuracy & Switch-point accuracy \\\\\n"
+        "\\midrule\n"
+        + "\n".join(
+            f"{tex_escape(row['method'])} & {row['overall_acc']:.3f} & {row['switch_acc']:.3f} \\\\"
+            for row in rows
+        )
+        + "\n\\bottomrule\n"
+        "\\end{tabular}\n"
+    )
+    Path("v2_reset_stress_table.tex").write_text(table, encoding="utf-8")
+
 def main():
     X, y, regime = make_data()
     n = len(X)
@@ -115,6 +187,7 @@ def main():
         results[name] = {"overall_acc": acc, "switch_acc": sw}
     Path = __import__("pathlib").Path
     Path(OUT, "synthetic_results.json").write_text(json.dumps(results, indent=2), encoding="utf-8")
+    write_v2_reset_stress(results, Xte, yte)
     print(json.dumps(results, indent=2))
 
 if __name__ == "__main__":
