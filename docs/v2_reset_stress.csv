@@ -1,0 +1,6 @@
+method,overall_acc,switch_acc
+Flat transformer,0.970833,0.650000
+Learned forget gate,0.976944,0.723333
+Regime-reset rule,1.000000,1.000000
+Reset rule, 10% regime flips,0.932361,0.916667
+Reset rule, 20% regime flips,0.878194,0.841667
