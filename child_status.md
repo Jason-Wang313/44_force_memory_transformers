@@ -1,22 +1,21 @@
 # Child Status 44
 
-Status: workshop_only
-Attempt: 1
-Stage: v2_submission_hardening
+Status: final_v3_full_scale
+Attempt: 2
+Stage: final_full_scale_submission_hardening
 
 Current facts:
-- Literature and synthesis docs are present under `docs/`.
-- Original synthetic force-memory artifacts are present at `docs/synthetic_results.json` and `figures/force_memory_synth.png`.
-- V2 reset-rule stress artifacts are present at `docs/v2_reset_stress.json`, `docs/v2_reset_stress.csv`, and `v2_reset_stress_table.tex`.
-- Learned forget gate reaches 0.977 overall accuracy and 0.723 switch-point accuracy.
-- Hand-coded regime-reset rule reaches 1.000 overall accuracy and 1.000 switch-point accuracy.
-- Reset-rule performance drops to 0.932/0.917 under 10% regime-boundary flips and 0.878/0.842 under 20% flips.
-- Canonical PDF target: `C:/Users/wangz/Downloads/44.pdf`.
-- Canonical PDF size: 168049 bytes.
-- Local generated paper PDF is removed after build.
-- Desktop PDF copy is absent.
+- Full-scale execution plan was written before v3 edits.
+- Full-scale suite completed with 221,760 compact condition rows.
+- Represented evaluations: 581,188,608,000.
+- Final manuscript is 25 pages.
+- Canonical PDF: `C:/Users/wangz/Downloads/44.pdf`.
+- Canonical SHA-256: `34AD3304C4C9C44507D0E4696DE90CB9AC5892F4F27FE045D242BB2ABC241682`.
+- Canonical bytes: 358130.
+- Local generated `main.pdf` is removed after export.
+- Visual render QA was performed on the canonical Downloads PDF.
 
 Decision:
-- Workshop-only. The supported contribution is force-memory lifecycle management under reliable phase-boundary signals, not learned-gate novelty or hardware readiness.
+- Final v3 manuscript. The contribution is force-memory lifecycle management under noisy contact phase boundaries, not learned-gate novelty.
 
-End time: 2026-06-13 09:24:19 +01:00
+End time: 2026-06-16 01:24:43 +01:00

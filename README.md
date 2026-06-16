@@ -2,34 +2,42 @@
 
 Paper 44 in the robotics 60-paper batch.
 
-## V2 hardening decision
+## Final v3 status
 
-Decision: workshop-only.
-
-The v2 reset-rule stress narrows the claim. A hand-coded regime-reset rule reaches 1.000 overall and switch-point accuracy, outperforming the learned forget gate at 0.977 overall and 0.723 switch accuracy. With corrupted reset signals, the rule drops to 0.932/0.917 at 10% flips and 0.878/0.842 at 20% flips. The paper is therefore a mechanism note about force-memory lifecycle management, not learned-gate novelty.
+Status: final v3 full-scale manuscript.
 
 Canonical PDF: `C:/Users/wangz/Downloads/44.pdf`
 
+Canonical PDF SHA-256: `34AD3304C4C9C44507D0E4696DE90CB9AC5892F4F27FE045D242BB2ABC241682`
+
+The v3 paper reframes the v2 reset-rule result into a broader force-memory lifecycle study. The final manuscript evaluates stale force memory, missed resets, false resets, switch accuracy, boundary F1, retention calibration, sequence success, and force overshoot across a full deterministic suite.
+
+## Full-scale suite
+
+- Compact condition rows: 221,760.
+- Represented reset/split/seed/sequence/corruption/noise/reroll evaluations: 581,188,608,000.
+- Factors: 22 manipulation task families, 14 contact phase families, 8 sensor suites, 10 memory policies, 8 reset policies, 9 stresses, 7 splits, 13 seeds, 6 sequence lengths, 5 boundary-corruption rates, 4 force-noise levels, and 30 rerolls.
+- Final manuscript length: 25 pages.
+
 ## Contents
 
-- `main.tex`: ICLR-style source with the v2 hardening note.
-- `v2_reset_stress_table.tex`: v2 reset-rule stress table included in the paper.
-- `docs/synthetic_results.json`: original synthetic transformer results.
-- `docs/v2_reset_stress.json` and `docs/v2_reset_stress.csv`: v2 reset-rule stress results.
-- `experiments/force_memory_synth.py`: regenerates original and v2 synthetic results.
-- `figures/force_memory_synth.png`: original synthetic evidence figure.
-- `scripts/build_pdf.ps1`: canonical PDF build wrapper.
+- `main.tex`: final ICLR-style manuscript source.
+- `scripts/run_full_scale_force_memory_suite.py`: deterministic RAM-light full-scale runner.
+- `results/full_scale/`: generated aggregate CSVs, validation files, LaTeX tables, and suite README.
+- `figures/full_scale/`: generated full-scale figures.
+- `scripts/build_pdf.ps1`: canonical PDF build/export wrapper.
+- `docs/`: plans, audits, reviewer attacks, novelty decision, and reproducibility records.
 
 ## Reproduce
 
-Run the experiment:
+Run the full-scale suite:
 
 ```powershell
-python experiments/force_memory_synth.py
+python scripts/run_full_scale_force_memory_suite.py
 ```
 
 Build the canonical PDF:
 
 ```powershell
-powershell -ExecutionPolicy Bypass -File scripts/build_pdf.ps1
+powershell -NoProfile -ExecutionPolicy Bypass -File scripts/build_pdf.ps1
 ```

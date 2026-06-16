@@ -1,16 +1,18 @@
 # Reviewer Attacks
 
-1. This is just a transformer over force history.
-2. This is close to tactile memory or retrieval.
-3. The gains come from extra parameters.
-4. The task is synthetic and too simple.
-5. Forgetting is obvious.
-6. This could be solved by better data.
-7. This is just a world model.
-8. The novelty is incremental.
-9. A hand-coded reset rule solves the toy.
-10. The method depends on reliable regime-boundary signals.
+1. A hard reset rule already solves the toy.
+2. This is just a transformer variant.
+3. Overall accuracy hides boundary failures.
+4. Reset can hurt stable contact phases.
+5. Boundary labels may be corrupted or delayed.
+6. Stale force memory is synthetic.
+7. Hardware force safety is not proven.
+8. Sensor quality may dominate memory design.
 
-## V2 outcome
+## v3 response
 
-Attacks 9 and 10 define the final boundary. The regime-reset rule reaches 1.000 accuracy, so the paper should not claim learned-gate novelty. Boundary corruption also matters: reset performance falls to 0.878 overall and 0.842 at switch points under 20% regime-boundary flips.
+Attack 1 is accepted and built into the final design. The final paper includes hard reset, hysteresis reset, noisy-boundary reset, learned reset classifier, and oracle lifecycle memory.
+
+Attacks 3, 4, and 5 are addressed with lifecycle metrics, negative controls, and boundary-corruption stresses.
+
+Attacks 6 and 7 remain limitations. The paper is explicit that the suite is synthetic and diagnostic. The hardware validation and falsification sections specify what future robot evidence must test.

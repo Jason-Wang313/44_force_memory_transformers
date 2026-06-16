@@ -2,21 +2,26 @@
 
 ## Chosen direction
 
-Force Memory Transformers should be framed as a contact-sequence mechanism for force-memory lifecycle management under changing contact regimes.
+Force-memory lifecycle management: preserve useful contact force state inside a phase and invalidate stale evidence at true contact phase boundaries.
 
-## Decision after v2 hardening
+## Final decision
 
-Workshop-only.
+Final v3 full-scale manuscript.
 
 ## Reasoning
 
-- The mechanism is more specific than generic tactile transformers.
-- The toy supports the claim that stale force history can hurt at phase switches.
-- The v2 reset-rule stress shows the learned gate is not the central novelty.
-- A hand-coded regime-reset rule solves the synthetic task exactly.
-- Reliable phase-boundary signals are a core assumption.
-- No real-robot or high-fidelity manipulation benchmark is present.
+- The paper no longer depends on a learned forget gate beating a hard reset rule.
+- Strong reset-rule and memory baselines are included.
+- The measured contribution is lifecycle quality: stale-memory reduction, switch accuracy, reset precision/recall, retention calibration, force overshoot, and sequence success.
+- The full-scale suite covers task families, phase families, sensor suites, policies, reset policies, stresses, splits, seeds, sequence lengths, corruption rates, force-noise levels, and rerolls.
 
-## Minimal surviving claim
+## What we are not claiming
 
-Explicit reset-aware state management is useful for force-memory sequence modeling in this synthetic setting. The current paper does not establish learned-gate superiority over simple reset rules.
+- Not a hardware-validated manipulation policy.
+- Not learned-gate novelty.
+- Not a universal tactile transformer.
+- Not proof that every contact task needs explicit reset.
+
+## Supported claim
+
+In contact-rich sequence regimes where force evidence can become stale after phase changes, policies should manage force memory as lifecycle state and report reset/retention errors rather than relying only on overall accuracy.

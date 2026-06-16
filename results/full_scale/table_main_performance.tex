@@ -1,0 +1,22 @@
+\begin{table}[t]
+\centering
+\caption{Main memory-policy performance.}
+\label{tab:main-performance}
+\small
+\begin{tabular}{lrrrrr}
+\toprule
+Policy & Overall & Switch & Stale err. & Bound. F1 & Life. \\
+\midrule
+oracle\_lifecycle\_memory & 0.905 & 0.962 & 0.109 & 0.821 & 0.796 \\
+hysteresis\_reset & 0.878 & 0.895 & 0.177 & 0.797 & 0.741 \\
+hard\_regime\_reset & 0.874 & 0.896 & 0.167 & 0.805 & 0.739 \\
+learned\_reset\_classifier & 0.880 & 0.887 & 0.186 & 0.792 & 0.738 \\
+learned\_forget\_gate & 0.877 & 0.865 & 0.214 & 0.779 & 0.724 \\
+noisy\_boundary\_reset & 0.868 & 0.865 & 0.206 & 0.783 & 0.718 \\
+gru\_memory & 0.854 & 0.784 & 0.303 & 0.733 & 0.662 \\
+exponential\_decay & 0.842 & 0.771 & 0.312 & 0.726 & 0.647 \\
+full\_trace\_attention & 0.808 & 0.612 & 0.534 & 0.095 & 0.458 \\
+flat\_transformer & 0.804 & 0.613 & 0.525 & 0.081 & 0.454 \\
+\bottomrule
+\end{tabular}
+\end{table}
