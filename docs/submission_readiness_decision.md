@@ -1,7 +1,7 @@
 # Submission Readiness Decision
 
-Decision: workshop-only.
+Decision: final v3 full-scale manuscript.
 
-Reason: the mechanism is coherent, but the evidence is synthetic and a hand-coded reset rule solves the toy exactly when clean phase boundaries are available. The current paper supports force-memory lifecycle framing, not learned-gate novelty.
+Reason: the paper now contains a 25-page mechanism study with a full-scale deterministic suite, strong baselines, reset-policy stresses, boundary-corruption analysis, stale-memory and false-reset metrics, negative controls, safety discussion, reproducibility details, and visual PDF QA. The old hard-reset objection is addressed directly by shifting the claim from learned-gate novelty to lifecycle management.
 
-Next useful research move: test learned forgetting against explicit reset rules in real or high-fidelity contact tasks where regime boundaries are noisy, latent, or delayed.
+Remaining limitation: the evidence is synthetic and diagnostic. The manuscript states this clearly and provides hardware validation and falsification plans.

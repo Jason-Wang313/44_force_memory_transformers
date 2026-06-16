@@ -1,0 +1,13 @@
+{
+  "paper": 44,
+  "status": "final_v3_full_scale",
+  "canonical_pdf": "C:/Users/wangz/Downloads/44.pdf",
+  "canonical_pages": 25,
+  "canonical_bytes": 358130,
+  "canonical_sha256": "34AD3304C4C9C44507D0E4696DE90CB9AC5892F4F27FE045D242BB2ABC241682",
+  "local_pdf_removed": true,
+  "condition_rows": 221760,
+  "represented_trial_evaluations": 581188608000,
+  "render_qa": "canonical Downloads PDF rendered to PNG pages and visually checked",
+  "latex_log_scan": "no overfull boxes, unresolved references, undefined citations, or fatal errors found"
+}

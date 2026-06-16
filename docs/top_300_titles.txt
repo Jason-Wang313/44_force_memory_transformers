@@ -3,7 +3,7 @@
 13 | 2026 | HiMem-WAM: Hierarchical Memory-Gated World Action Models for Robotic Manipulation
 13 | 2026 | Unifying Object-Centric World Models and Diffusion Policy: A Hierarchical Framework for Multi-Stage Robotic Tasks
 13 | 2026 | RoboTrustBench: Benchmarking the Trustworthiness of Video World Models for Robotic Manipulation
-13 | 2026 | $τ_0$-WM: A Unified Video-Action World Model for Robotic Manipulation
+13 | 2026 | $tau_0$-WM: A Unified Video-Action World Model for Robotic Manipulation
 13 | 2026 | World Models for Robotic Manipulation: A Survey
 13 | 2026 | GEM-4D: Geometry-Enhanced Video World Models for Robot Manipulation
 13 | 2026 | GaussianDream: A Feed-Forward 3D Gaussian World Model for Robotic Manipulation
@@ -56,7 +56,7 @@
 07 | 2026 | World Model Self-Distillation: Training World Models to Solve General Tasks
 07 | 2026 | WorldOlympiad: Can Your World Model Survive a Triathlon?
 07 | 2026 | MemoryVLA++: Temporal Modeling via Memory and Imagination in Vision-Language-Action Models
-07 | 2026 | $ω$-EVA: Envision, Verify, and Act with Latent Interactive World Models
+07 | 2026 | $omega$-EVA: Envision, Verify, and Act with Latent Interactive World Models
 07 | 2026 | ATM: Action-Consistency Transfer Matrix for Diagnosing and Improving Latent World Models
 07 | 2026 | SpaceVLN: A Zero-Shot Vision-and-Language Navigation Agent with Online Spatial Cognitive Memory and Reasoning
 07 | 2026 | Remember with Confidence: Uncertainty Quantification for Spatio-temporal Memory with Probabilistic Guarantees

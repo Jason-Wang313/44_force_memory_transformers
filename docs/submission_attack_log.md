@@ -1,25 +1,33 @@
 # Submission Attack Log
 
-## Attack: oracle reset rule
+## Attack: hard reset solves the toy
 
-Question: Does a simple reset rule solve the synthetic phase-switch task?
+Question: Does the learned gate matter if a clean regime-reset rule reaches perfect toy accuracy?
 
-Result: yes. The regime-reset rule reaches 1.000 overall and switch-point accuracy.
+Result: the v2 stress showed that clean hard reset is stronger in the toy. The v3 suite treats this as a constraint and evaluates lifecycle management under corrupted, delayed, missing, and false reset conditions.
 
-Decision impact: learned-gate novelty is unsupported.
+Decision impact: final paper does not claim learned-gate novelty.
 
-## Attack: corrupted regime boundary
+## Attack: reset can hurt
 
-Question: Does reset-aware memory remain reliable when phase-boundary signals are noisy?
+Question: Does forgetting always help?
 
-Result: performance drops to 0.932/0.917 at 10% flips and 0.878/0.842 at 20% flips.
+Result: no. Negative controls and false-reset metrics show that premature reset can damage stable contact behavior.
 
-Decision impact: boundary detection must be a central limitation.
+Decision impact: final paper frames the problem as retention/reset balance.
+
+## Attack: overall accuracy hides the mechanism
+
+Question: Can average accuracy obscure stale-memory failures?
+
+Result: yes. The v3 suite reports switch accuracy, stale-memory error, missed resets, false resets, boundary F1, retention calibration, sequence success, and force overshoot.
+
+Decision impact: supports lifecycle metrics beyond overall accuracy.
 
 ## Attack: real-robot readiness
 
-Question: Is there hardware or high-fidelity manipulation evidence?
+Question: Is there hardware or high-fidelity contact evidence?
 
-Result: no.
+Result: no. The paper is framed as a full-scale synthetic mechanism study with hardware validation plans and falsification criteria.
 
-Decision impact: workshop-only.
+Decision impact: limits the claim to representation, metrics, and diagnostics.

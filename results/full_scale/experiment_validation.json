@@ -1,0 +1,26 @@
+{
+  "status": "complete",
+  "expected_condition_rows": 221760,
+  "actual_condition_rows": 221760,
+  "represented_trial_evaluations": 581188608000,
+  "figures": [
+    "task_phase_stale_memory_map.pdf",
+    "policy_stress_lifecycle_heatmap.pdf",
+    "accuracy_vs_stale_error.pdf",
+    "boundary_f1_vs_switch_accuracy.pdf",
+    "retention_reset_tradeoff.pdf",
+    "force_overshoot_stress.pdf"
+  ],
+  "tables": [
+    "table_scale.tex",
+    "table_main_performance.tex",
+    "table_reset_summary.tex",
+    "table_stress_summary.tex",
+    "table_sensor_summary.tex",
+    "table_task_summary.tex",
+    "table_phase_summary.tex",
+    "table_boundary_corruption_summary.tex",
+    "table_negative_controls.tex",
+    "table_v2_reconciliation.tex"
+  ]
+}

@@ -2,41 +2,34 @@
 
 Paper: 44_force_memory_transformers
 
-Decision: workshop-only
+Status: final v3 full-scale manuscript
 
-Submission-hardening version: v2
+## V2 lesson retained
 
-## Original positive evidence
+The earlier reset-rule stress showed that a clean hand-coded reset can beat a learned forget gate in the small toy. The final paper keeps that lesson and makes lifecycle quality, boundary corruption, stale memory, missed resets, false resets, and force overshoot central metrics.
 
-- Flat transformer overall accuracy: 0.971.
-- Flat transformer switch-point accuracy: 0.650.
-- Learned forget gate overall accuracy: 0.977.
-- Learned forget gate switch-point accuracy: 0.723.
-- Original interpretation: explicit forgetting improves most at contact phase switches.
+## V3 contribution
 
-## V2 reset-rule stress
+The final paper tests force-memory lifecycle management at scale. Flat and full-trace memory retain stale evidence. Learned gates help, but hard and hysteresis reset remain strong. Oracle lifecycle memory estimates headroom.
 
-- Regime-reset rule: 1.000 overall accuracy, 1.000 switch-point accuracy.
-- Reset rule with 10% regime-boundary flips: 0.932 overall accuracy, 0.917 switch-point accuracy.
-- Reset rule with 20% regime-boundary flips: 0.878 overall accuracy, 0.842 switch-point accuracy.
-
-## Audit judgment
-
-The paper survives as a narrow workshop mechanism note. It supports force-memory lifecycle management, but not learned-gate novelty. The current synthetic task is solved by a hand-coded reset rule when clean regime boundaries are available, and the result depends on reliable boundary signals.
-
-## Artifacts
+## Key artifacts
 
 - Paper source: `main.tex`
-- Experiment script: `experiments/force_memory_synth.py`
-- Original synthetic results: `docs/synthetic_results.json`
-- V2 stress JSON: `docs/v2_reset_stress.json`
-- V2 stress CSV: `docs/v2_reset_stress.csv`
-- V2 table: `v2_reset_stress_table.tex`
+- Full-scale runner: `scripts/run_full_scale_force_memory_suite.py`
+- Full-scale outputs: `results/full_scale/`
+- Figures: `figures/full_scale/`
 - Build wrapper: `scripts/build_pdf.ps1`
+- Build status: `data/build_status.json`
 
-## PDF and repository
+## Final PDF
 
 - Canonical PDF: `C:/Users/wangz/Downloads/44.pdf`
-- Local tracked/generated PDF: removed after build
-- Desktop copy: absent
-- GitHub URL: `https://github.com/Jason-Wang313/44_force_memory_transformers`
+- Pages: 25.
+- File bytes: 358130.
+- SHA-256: `34AD3304C4C9C44507D0E4696DE90CB9AC5892F4F27FE045D242BB2ABC241682`
+- Local tracked/generated PDF: removed after build.
+- Render QA: canonical Downloads PDF rendered to PNG pages and contact sheet under `tmp/pdfs/` before cleanup.
+
+## Repository
+
+GitHub URL: `https://github.com/Jason-Wang313/44_force_memory_transformers`

@@ -1,0 +1,21 @@
+\begin{table}[t]
+\centering
+\caption{Reconciliation with the v2 reset-rule stress.}
+\label{tab:v2-reconciliation}
+\small
+\begin{tabular}{lrrrr}
+\toprule
+Condition & Overall & Switch & Stale & Life. \\
+\midrule
+V2 flat transformer & 0.971 & 0.650 & - & - \\
+V2 learned forget gate & 0.977 & 0.723 & - & - \\
+V2 hard reset & 1.000 & 1.000 & - & - \\
+V2 hard reset 10\% flips & 0.932 & 0.917 & - & - \\
+V2 hard reset 20\% flips & 0.878 & 0.842 & - & - \\
+v3\_learned\_forget\_gate & 0.877 & 0.865 & 0.214 & 0.724 \\
+v3\_hard\_regime\_reset & 0.874 & 0.896 & 0.167 & 0.739 \\
+v3\_hysteresis\_reset & 0.878 & 0.895 & 0.177 & 0.741 \\
+v3\_oracle\_lifecycle\_memory & 0.905 & 0.962 & 0.109 & 0.796 \\
+\bottomrule
+\end{tabular}
+\end{table}

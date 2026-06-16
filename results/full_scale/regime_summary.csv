@@ -1,0 +1,4 @@
+name,count,overall_accuracy,switch_accuracy,stale_memory_error,missed_reset_rate,false_reset_rate,boundary_f1,retention_calibration,sequence_success,force_overshoot,lifecycle_score
+lifecycle_required,142560,0.858625,0.811757,0.275339,0.231579,0.156175,0.637704,0.873399,0.761191,0.130126,0.665152
+mixed_contact,72160,0.858035,0.818847,0.274194,0.217287,0.159613,0.645908,0.873941,0.763554,0.130316,0.669074
+stable_memory_control,7040,0.876368,0.844570,0.221254,0.191461,0.150283,0.665566,0.911451,0.790038,0.109928,0.704751
