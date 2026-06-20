@@ -26,9 +26,10 @@ The final paper tests force-memory lifecycle management at scale. Flat and full-
 - Canonical PDF: `C:/Users/wangz/Downloads/44.pdf`
 - Pages: 25.
 - File bytes: 358130.
-- SHA-256: `34AD3304C4C9C44507D0E4696DE90CB9AC5892F4F27FE045D242BB2ABC241682`
+- SHA-256: `368077D70F7BFC6CB5838E247646419435DE7238FEF1439331D8A93FFF8D2DCC`
 - Local tracked/generated PDF: removed after build.
 - Render QA: canonical Downloads PDF rendered to PNG pages and contact sheet under `tmp/pdfs/` before cleanup.
+- VLA-style link-box QA: affected pages 1, 4, and 7 rendered at 160 dpi; verified 16 green citation boxes, 1 red internal-reference box, and 17 visible `(0, 0, 1)` borders with no visual collisions.
 
 ## Repository
 

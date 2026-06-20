@@ -169,6 +169,7 @@ Do not move to Paper45 until all items pass:
 - Represented evaluations: 581,188,608,000.
 - Final manuscript: 25 pages.
 - Canonical PDF: `C:/Users/wangz/Downloads/44.pdf`.
-- Canonical SHA-256: `34AD3304C4C9C44507D0E4696DE90CB9AC5892F4F27FE045D242BB2ABC241682`.
+- Canonical SHA-256: `368077D70F7BFC6CB5838E247646419435DE7238FEF1439331D8A93FFF8D2DCC`.
 - Local `main.pdf` removed after export.
 - Canonical Downloads PDF rendered and visually checked.
+- VLA-style visible link-box QA completed on pages 1, 4, and 7, with 16 green citation boxes, 1 red internal-reference box, and 17 visible borders.
