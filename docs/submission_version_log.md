@@ -18,4 +18,9 @@
 - Rewrote the manuscript around force-memory lifecycle management.
 - Added full-scale tables, figures, reset policies, boundary corruption, stale-memory stress, negative controls, safety, and reproducibility appendices.
 - Built and visually checked the 25-page canonical PDF at `C:/Users/wangz/Downloads/44.pdf`.
-- Final SHA-256: `34AD3304C4C9C44507D0E4696DE90CB9AC5892F4F27FE045D242BB2ABC241682`.
+- Final SHA-256: `368077D70F7BFC6CB5838E247646419435DE7238FEF1439331D8A93FFF8D2DCC`.
+
+## v3 visual hardening
+
+- Rebuilt the same 25-page manuscript with visible VLA-style red/green link boxes.
+- Verified affected pages 1, 4, and 7 by PNG render.

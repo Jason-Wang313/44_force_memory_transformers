@@ -8,9 +8,11 @@ Status: final v3 full-scale manuscript.
 
 Canonical PDF: `C:/Users/wangz/Downloads/44.pdf`
 
-Canonical PDF SHA-256: `34AD3304C4C9C44507D0E4696DE90CB9AC5892F4F27FE045D242BB2ABC241682`
+Canonical PDF SHA-256: `368077D70F7BFC6CB5838E247646419435DE7238FEF1439331D8A93FFF8D2DCC`
 
 The v3 paper reframes the v2 reset-rule result into a broader force-memory lifecycle study. The final manuscript evaluates stale force memory, missed resets, false resets, switch accuracy, boundary F1, retention calibration, sequence success, and force overshoot across a full deterministic suite.
+
+The final PDF also uses visible VLA-style link boxes: green citation boxes, red internal-reference boxes, and thin boxed borders verified on affected pages 1, 4, and 7.
 
 ## Full-scale suite
 
